@@ -1,13 +1,11 @@
 package com.suleimanazhari.openweather.ui
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.bumptech.glide.Glide
 import com.suleimanazhari.openweather.R
 import com.suleimanazhari.openweather.data.network.WeatherService
 import com.suleimanazhari.openweather.data.network.InternetAvailabilityInterceptorImpl
