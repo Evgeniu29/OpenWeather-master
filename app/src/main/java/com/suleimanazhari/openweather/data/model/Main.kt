@@ -1,11 +1,21 @@
-package com.suleimanazhari.openweather.data.model
+package com.mbakgun.weatherlogger.network.Response.modal
 
 import com.google.gson.annotations.SerializedName
 
 data class Main(
-        val temp: Double,
-        @SerializedName("temp_max")
-        val tempMax: Double,
-        @SerializedName("temp_min")
-        val tempMin: Double
+
+	@field:SerializedName("temp")
+	val temp: Double? = null,
+
+	@field:SerializedName("temp_min")
+	val tempMin: Double? = null,
+
+	@field:SerializedName("humidity")
+	val humidity: Int? = null,
+
+	@field:SerializedName("pressure")
+	val pressure: Int? = null,
+
+	@field:SerializedName("temp_max")
+	val tempMax: Double? = null
 )
